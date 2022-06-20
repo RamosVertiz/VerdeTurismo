@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="icomoon/style.css" />
+  </head>
+  <body>
+    <header class="menu" id="inicio">
+      <img class="logo" src="logo.png" alt="" />
+      <nav>
+        <ul>
+          <li> <a href="#inicio">Inicio</a></li>
+          <li> <a href="#promociones">Promociones</a></li>
+          <li> <a href="#redes">Redes</a></li>
+          <li> <a href="mailto:verdeturismo@verdeturismo.com">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="presentacion">
+      <div class="textoPresentacion">
+        <h1>Verde Turismo</h1>
+        <p>
+          Hola, somos la primer agencia de turismo ecológica del país. Buscamos
+          que los nuestros viajeros puedan disfrutar de actividades recreativas
+          de observación en contacto armonioso con la naturaleza.
+        </p>
+        <button> <a href="https://es.wikipedia.org/wiki/Turismo_ecol%C3%B3gico" target="_blank">Conoce más</a> </button>
+      </div>
+      
+        <img src="explorando.png" alt="ImagenExploradora" class="ImagenExploradora"/>
+        
+    </main>
+
+    <section class="promociones" id="promociones">
+      <div class="textoPromociones">
+        <p>Te presentamos nuestros destinos del mes</p>
+      </div>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active fotoDestino">
+            <img src="bariloche.jpg" class="d-block w-100" alt="..." />
+            <div class="textoEncima"><p>bariloche</p></div>
+          </div>
+          <div class="carousel-item">
+            <img src="humahuaca.jpg" class="d-block w-100" alt="..." />
+            <div class="textoEncima"><p>humahuaca</p></div>
+          </div>
+          <div class="carousel-item">
+            <img src="cataratas2.jpg" class="d-block w-100" alt="..." />
+            <div class="textoEncima"><p>cataratas del iguazu</p></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <div class="logoPie">
+        <img src="logo2.png" alt="" />
+      </div>
+
+      <div class="redes seccionPie" id="redes">
+        <h3>Redes Sociales</h3>
+        <li>
+       <ul> <a
+          href="http://www.instagram.com"
+          class="icon-instagram iconoRedes"
+          target="_blank">
+          <p>Instragram</p></a></ul>
+       <ul><a
+          href="http://www.facebook.com"
+          class="icon-facebook iconoRedes"
+          target="_blank">
+          <p>Facebook</p></a></ul> 
+       <ul> <a
+          href="http://www.twitter.com"
+          class="icon-twitter iconoRedes"
+          target="_blank">
+          <p>Twitter</p></a></ul>
+        </li>
+      </div>
+
+      <div class="titulosPie seccionPie">
+        <h3>Sobre Nosotros</h3>
+        <li>
+            <ul>¿Quiénes somos?</ul>
+            <ul>Sucursales</ul>
+            <ul>Preguntas frecuentes</ul>
+        </li>
+      </div>
+
+      <div class="titulosPie seccionPie">
+        <h3>Soporte</h3>
+        <li>
+            <ul>Trabajá con nosotros</ul>
+            <ul>Politicas de privacidad</ul>
+            <ul>Términos y condiciones</ul>
+        </li>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
