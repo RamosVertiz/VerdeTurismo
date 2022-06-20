@@ -341,8 +341,13 @@ footer ul:hover {
     }
 
 
-    .textoPromociones {
+    .promociones {
         width: 100%;
+        
+    }
+
+    .textoPromociones {
+        width: 90%;
      font-size: 4vw;
         border-right: none;
         border-bottom: solid #79a48c 1.8px;
@@ -351,8 +356,9 @@ footer ul:hover {
     }
     
     .carousel{
-        width: 100%;
-        margin-left: none;
+        width: 95%;
+        margin: 0 auto;
+       
     }
     .carousel-item img {
         
